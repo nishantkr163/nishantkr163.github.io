@@ -33,7 +33,7 @@ const Navbar = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand">
-          <h1 className="name">Nishant <span className="name" style={{ color : "darkblue" }} >Singh</span></h1>
+          <h1 className="name">Nishant <span className="name" style={{ color : "cyan" }} >Singh</span></h1>
         </a>
         <button
           className="navbar-toggler"
