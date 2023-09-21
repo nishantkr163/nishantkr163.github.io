@@ -3,11 +3,11 @@
 const FormalAbout = () => {
   return (
     <>
-        <h1>Hi, I&apos;m</h1> 
-        <h1>Nishant Kumar Singh</h1>
+        <h1>Hii,</h1> 
+        <h1>I&apos;m Nishant Kumar Singh</h1>
         <br />
         <br />
-        <h5>I am a Full Stack Web Developer passionate about crafting seamless digital experiences. With expertise in frontend and backend technologies, I transform ideas into functional web solutions.</h5>
+        <h2>I am a Full Stack Web Developer passionate about crafting seamless digital experiences.</h2>
     </>
   )
 }

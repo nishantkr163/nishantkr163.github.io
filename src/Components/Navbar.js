@@ -9,6 +9,7 @@ const Navbar = () => {
   const section1Ref = useRef();
   const section2Ref = useRef();
   const section3Ref = useRef();
+  const section4Ref = useRef();
 
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
@@ -19,6 +20,7 @@ const Navbar = () => {
     section1Ref.current = document.getElementById("section1");
     section2Ref.current = document.getElementById("section2");
     section3Ref.current = document.getElementById("section3");
+    section4Ref.current = document.getElementById("section4");
     AOS.init();
   }, []);
 
@@ -31,7 +33,7 @@ const Navbar = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand">
-          <DownloadResume />
+          <h1 className="name">Nishant <span className="name" style={{ color : "darkblue" }} >Singh</span></h1>
         </a>
         <button
           className="navbar-toggler"
@@ -84,7 +86,8 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">CONTACT</a>
+            <a className="nav-link"
+             onClick={() => scrollToSection(section4Ref)}>CONTACT</a>
           </li>
         </ul>
       </div>

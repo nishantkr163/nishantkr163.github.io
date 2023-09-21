@@ -11,7 +11,7 @@ export const Skills = () => {
     <>
       <br />
       <div>
-        <h1 style={{ fontWeight: "bold" }}>Teck Stacks</h1>
+        <h1 className="name" >Teck Stacks</h1>
         <p>
           The main area of expertise is front end development (client side of
           the web).
@@ -285,7 +285,7 @@ export const Skills = () => {
         </div>
       </div>
       <div>
-        <h1 style={{ fontWeight: "bold" }}>Soft Skills</h1>
+        <h1 className="name">Soft Skills</h1>
         <p style={{ width: "80%", margin: "auto" }}>
           Proficient in effective communication and enhancing cross-functional
           teamwork for holistic software solutions.

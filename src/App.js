@@ -10,6 +10,7 @@ import FormalAbout from "./Components/FormalAbout";
 import { Skills } from "./Components/Skills";
 import Projects from "./Components/Projects";
 import SpaceBackground from "./Components/SpaceBackground";
+import Contact from "./Components/Contact";
 
 
 function App() {
@@ -70,6 +71,15 @@ function App() {
         data-aos-duration="1000"
       >
         <Projects />
+      </div>
+      <br /><br /><br /><br id="section4" />
+      <div 
+        className="container contact"
+        data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+      >
+        <Contact />
       </div>
     </div>
   );

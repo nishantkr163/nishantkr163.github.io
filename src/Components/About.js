@@ -3,14 +3,14 @@ import DownloadResume from "./DownloadResume";
 const About = () => {
   return (
     <div className="about-div d-flex flex-column gap-4">
-      <h1 className="mb-4">About Me</h1>
-      <h4>
+      <h1 className="mb-4 name">About Me</h1>
+      <h2>
         As an ambitious Full Stack Web Developer, my specialization lies in
         Frontend Development, where my mission is to empower businesses and
         elevate online experiences. With expertise in the MERN stack, I am
         committed to continuous learning and staying at the forefront of the
         latest technologies.
-      </h4>
+      </h2>
       <div className="container">
         <div className="d-flex align-items-center my-3 justify-content-center">
           <svg

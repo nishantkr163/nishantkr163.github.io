@@ -10,11 +10,11 @@ const Projects = () => {
 
   return (
     <>
-      <h1 style={{ textAlign: "center", color: "white", fontWeight: "bold" }}>
+      <h1 className="name" style={{ textAlign: "center", color: "white" }}>
         My Projects
       </h1>
       <br />
-      <div data-aos="fade-left"
+      <div data-aos="fade-right"
         data-aos-delay="300"
         data-aos-duration="1000" className="blog-card">
         <div className="meta">
