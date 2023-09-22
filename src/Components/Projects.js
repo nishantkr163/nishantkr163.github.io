@@ -13,6 +13,7 @@ const Projects = () => {
       <h1 className="name" style={{ textAlign: "center", color: "white" }}>
         My Projects
       </h1>
+      <p style={{ color : 'white' }} >A glimpse into my client-side web development work.</p>
       <br />
       <div data-aos="fade-right"
         data-aos-delay="300"

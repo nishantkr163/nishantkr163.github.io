@@ -11,6 +11,8 @@ import { Skills } from "./Components/Skills";
 import Projects from "./Components/Projects";
 import SpaceBackground from "./Components/SpaceBackground";
 import Contact from "./Components/Contact";
+import GithubCalendar from "./Components/GithubCalendar";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -20,68 +22,88 @@ function App() {
   }, []);
 
   return (
-    <div id="section0" className="mainContainer">
-      <SpaceBackground />
-      <Navbar />
-      <br /><br />
-      <div className="container-fluid my-5 image-about">
-        <div className="row d-flex align-items-center justify-content-around">
-          <div
-            data-aos="fade-right"
-            data-aos-delay="300"
-            data-aos-duration="1000"
-            className="col-lg-5 col-7 mb-lg-0 mb-5 "
-          >
-            <ProfilePic />
-          </div>
-          <div
-            data-aos="fade-left"
-            data-aos-delay="300"
-            data-aos-duration="1000"
-            className="col-lg-5 col-10 mt-lg-0 mt-5 about"
-          >
-            <FormalAbout />
+    <>
+      <div id="section0" className="mainContainer">
+        <SpaceBackground />
+        <Navbar />
+        <br /><br />
+        {/* Hero Section with profile pic and 2 lines intro */}
+        <div className="container-fluid my-5 image-about">
+          <div className="row d-flex align-items-center justify-content-around">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              className="col-lg-5 col-7 mb-lg-0 mb-5 "
+            >
+              <ProfilePic />
+            </div>
+            <div
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              className="col-lg-5 col-10 mt-lg-0 mt-5 about"
+            >
+              <FormalAbout />
+            </div>
           </div>
         </div>
+        <br /><br /><br id="section1" /><br id="section1" />
+        {/* About Section */}
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          className="container aboutme d-flex gap-5 justify-content-center align-items-center"
+        >
+          <About />
+        </div>
+        <br /><br /><br /><br id="section2" />
+        {/* Skills Section */}
+        <div
+          className="container skills d-md-flex gap-md-5 flex-md-column justify-content-center align-items-center"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+
+        >
+          <Skills />
+        </div>
+        <SpaceBackground />
+        <br /><br /><br /><br id="section3" />
+        {/* Projects Section */}
+        <div
+          className="container  projects"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <Projects />
+        </div>
+        <br /><br /><br /><br id="section5" />
+        {/* Github Section */}
+        <div
+          className="container github"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <GithubCalendar />
+        </div>
+        <br /><br /><br /><br id="section4" />
+        {/* Contact Section */}
+        <div
+          className="container contact"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <Contact />
+        </div>
+        <br /><br /><br /><br />
       </div>
-      <br/><br /><br id="section1" /><br id="section1" />
-      <div
-        data-aos="fade-up"
-        data-aos-delay="300"
-        data-aos-duration="1000"
-        className="container aboutme d-flex gap-5 justify-content-center align-items-center"
-      >
-        <About />
-      </div>
-      <br /><br /><br /><br id="section2" />
-      <div 
-        className="container skills d-md-flex gap-md-5 flex-md-column justify-content-center align-items-center"
-        data-aos="fade-up"
-        data-aos-delay="300"
-        data-aos-duration="1000"
-        
-      >
-        <Skills />
-      </div>
-      <br /><br /><br /><br id="section3" />
-      <div 
-        className="container  projects"
-        data-aos="fade-up"
-        data-aos-delay="300"
-        data-aos-duration="1000"
-      >
-        <Projects />
-      </div>
-      <br /><br /><br /><br id="section4" />
-      <div 
-        className="container contact"
-        data-aos="fade-up"
-        data-aos-delay="300"
-        data-aos-duration="1000"
-      >
-        <Contact />
-      </div>
-    </div>
+      <Footer />
+    </>
   );
 }
 

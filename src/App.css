@@ -3,8 +3,8 @@ body {
 }
 
 .mainContainer {
-  padding-bottom: 60px;
-  background-color: transparent;
+  /* padding-bottom: 60px; */
+  /* background-color: transparent; */
   background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
 }
 
@@ -213,6 +213,11 @@ svg {
 
 .name {
   font-family: "Saira Stencil One", cursive;
+  transition: transform 0.3s;
+}
+
+.name:hover {
+  transform: scale(1.1);
 }
 
 .aboutme {
@@ -255,6 +260,27 @@ svg {
 }
 
 .contact {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 10px solid white;
+  outline: 10px solid white;
+  outline-offset: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.footer {
+  background-color: rgb(11,13,19) !important;
+  height: 150px;
+  z-index: 3;
+}
+
+.stats img {
+  height: 100%;
+}
+
+.github {
   color: white;
   padding: 20px;
   border-radius: 10px;

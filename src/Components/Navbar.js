@@ -10,6 +10,7 @@ const Navbar = () => {
   const section2Ref = useRef();
   const section3Ref = useRef();
   const section4Ref = useRef();
+  const section5Ref = useRef();
 
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
@@ -21,6 +22,7 @@ const Navbar = () => {
     section2Ref.current = document.getElementById("section2");
     section3Ref.current = document.getElementById("section3");
     section4Ref.current = document.getElementById("section4");
+    section5Ref.current = document.getElementById("section5");
     AOS.init();
   }, []);
 
@@ -29,11 +31,11 @@ const Navbar = () => {
       data-aos="fade-down"
       data-aos-delay="300"
       data-aos-duration="1000"
-      className="navbar navbar-expand-lg py-4 "
+      className="navbar navbar-expand-lg py-4 px-5 "
     >
       <div className="container-fluid">
-        <a className="navbar-brand">
-          <h1 className="name">Nishant <span className="name" style={{ color : "cyan" }} >Singh</span></h1>
+        <a>
+          <h1 className="name">Nishant <span className="name" style={{ color : "#006AFF" }} >Singh</span></h1>
         </a>
         <button
           className="navbar-toggler"
@@ -88,6 +90,10 @@ const Navbar = () => {
           <li className="nav-item">
             <a className="nav-link"
              onClick={() => scrollToSection(section4Ref)}>CONTACT</a>
+          </li>
+           <li className="nav-item">
+            <a className="nav-link"
+             onClick={() => scrollToSection(section5Ref)}>GITHUB</a>
           </li>
         </ul>
       </div>
