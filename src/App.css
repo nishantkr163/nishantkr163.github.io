@@ -8,6 +8,14 @@ body {
   background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color : white;
+}
+
 .navbar {
   position: fixed;
   width: 100vw;

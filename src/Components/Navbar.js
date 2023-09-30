@@ -1,4 +1,3 @@
-import DownloadResume from "./DownloadResume";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useRef } from "react";
