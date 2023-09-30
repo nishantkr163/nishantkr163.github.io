@@ -271,9 +271,9 @@ svg {
 }
 
 .footer {
-  background-color: rgb(11,13,19) !important;
-  height: 150px;
-  z-index: 3;
+  background-color: rgb(11,13,19) ;
+  height: 150px ;
+  z-index: 10 !important;
 }
 
 .stats img {
