@@ -17,7 +17,7 @@ const Projects = () => {
       <br />
       <div data-aos="fade-right"
         data-aos-delay="300"
-        data-aos-duration="1000" className="blog-card">
+        data-aos-duration="1000" className="blog-card project-card">
         <div className="meta">
           <div
             className="photo"
@@ -28,16 +28,16 @@ const Projects = () => {
           ></div>
         </div>
         <div className="description">
-          <h1 style={{ fontWeight: 'bold' }} >TRAVELLO</h1>
-          <h2>HTML | CSS | JavaScript</h2>
-          <p>
+          <h1 style={{ fontWeight: 'bold' }} className="project-title" >TRAVELLO</h1>
+          <h2 className="project-tech-stack" >HTML | CSS | JavaScript</h2>
+          <p className="project-description" >
             {" "}
             Travello is an online travel booking website where users can
             interact and book packages for different locations as per their
             desires.
           </p>
           <p className="read-more">
-            <a href="https://sensational-starship-6bc092.netlify.app/" target="_blank">
+            <a className="project-deployed-link" href="https://sensational-starship-6bc092.netlify.app/" target="_blank">
               <svg
                 width="30"
                 height="30"
@@ -50,7 +50,7 @@ const Projects = () => {
                 />
               </svg>
             </a>
-            <a href="https://github.com/audacity07/travello" target="_blank">
+            <a className="project-github-link" href="https://github.com/audacity07/travello" target="_blank">
               <svg
                 width="30"
                 height="30"
@@ -69,7 +69,7 @@ const Projects = () => {
       </div>
       <div data-aos="fade-right"
         data-aos-delay="300"
-        data-aos-duration="1000" className=" blog-card alt">
+        data-aos-duration="1000" className=" blog-card  project-card alt">
         <div className="meta">
           <div
             className="photo"
@@ -80,14 +80,14 @@ const Projects = () => {
           ></div>
         </div>
         <div className="description">
-          <h1 style={{ fontWeight: 'bold' }} >HEALTH+</h1>
-          <h2>HTML | React | Material UI</h2>
-          <p>
+          <h1 style={{ fontWeight: 'bold' }} className="project-title" >HEALTH+</h1>
+          <h2 className="project-tech-stack">HTML | React | Material UI</h2>
+          <p  className="project-description">
             Health+ is an online fitness platform enabling users to set fitness
             goals and adopt healthy lifestyles.
           </p>
           <p className="read-more">
-            <a href="https://health-khht942ac-nishantkr163.vercel.app/" target="_blank" >
+            <a className="project-deployed-link" href="https://health-khht942ac-nishantkr163.vercel.app/" target="_blank" >
               <svg
                 width="30"
                 height="30"
@@ -100,7 +100,7 @@ const Projects = () => {
                 />
               </svg>
             </a>
-            <a href="https://github.com/maniRhombuz/Health-" target="_blank">
+            <a className="project-github-link" href="https://github.com/maniRhombuz/Health-" target="_blank">
               <svg
                 width="30"
                 height="30"
@@ -119,25 +119,25 @@ const Projects = () => {
       </div>
       <div data-aos="fade-right"
         data-aos-delay="300"
-        data-aos-duration="1000" className="blog-card">
+        data-aos-duration="1000" className="blog-card  project-card">
         <div className="meta">
           <div
             className="photo"
             style={{
               backgroundImage:
-                "url(https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif)",
+                "url(https://i.ibb.co/xhCRqFw/world-travel.png)",
             }}
           ></div>
         </div>
         <div className="description">
-          <h1 style={{ fontWeight: 'bold' }} >In Progress</h1>
-          <h2>... | ... | ...</h2>
-          <p>
+          <h1 style={{ fontWeight: 'bold' }} className="project-title" >World Travel</h1>
+          <h2 className="project-tech-stack">React | Redux | Chakra UI</h2>
+          <p className="project-description">
             {" "}
             "Currently in the works - keep an eye out for my upcoming projects powered by the latest tech."
           </p>
           <p className="read-more">
-            <a href="#" target="_blank">
+            <a className="project-deployed-link" href="https://world-travel-ns4dpcn5j-harsh7739.vercel.app/" target="_blank">
               <svg
                 width="30"
                 height="30"
@@ -150,7 +150,7 @@ const Projects = () => {
                 />
               </svg>
             </a>
-            <a href="#" target="_blank">
+            <a className="project-github-link" href="https://github.com/harsh7739/gas-scarecrow-3264" target="_blank">
               <svg
                 width="30"
                 height="30"
@@ -169,7 +169,7 @@ const Projects = () => {
       </div>
       <div data-aos="fade-right"
         data-aos-delay="300"
-        data-aos-duration="1000" className=" blog-card alt">
+        data-aos-duration="1000" className=" blog-card alt project-card">
         <div className="meta">
           <div
             className="photo"
@@ -180,13 +180,13 @@ const Projects = () => {
           ></div>
         </div>
         <div className="description">
-          <h1 style={{ fontWeight: 'bold' }} >In Progress</h1>
-          <h2>... | ... | ...</h2>
-          <p>
+          <h1 style={{ fontWeight: 'bold' }} className="project-title" >In Progress</h1>
+          <h2 className="project-tech-stack">... | ... | ...</h2>
+          <p className="project-description">
           "Currently in the works - keep an eye out for my upcoming projects powered by the latest tech."
           </p>
           <p className="read-more">
-            <a href="#" target="_blank" >
+            <a className="project-deployed-link" href="#" target="_blank" >
               <svg
                 width="30"
                 height="30"
@@ -199,7 +199,7 @@ const Projects = () => {
                 />
               </svg>
             </a>
-            <a href="#" target="_blank">
+            <a className="project-github-link" href="#" target="_blank">
               <svg
                 width="30"
                 height="30"

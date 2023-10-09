@@ -34,6 +34,7 @@ function App() {
               data-aos="fade-right"
               data-aos-delay="300"
               data-aos-duration="1000"
+              id="home"
               className="col-lg-5 col-7 mb-lg-0 mb-5 "
             >
               <ProfilePic />
@@ -42,7 +43,8 @@ function App() {
               data-aos="fade-left"
               data-aos-delay="300"
               data-aos-duration="1000"
-              className="col-lg-5 col-10 mt-lg-0 mt-5 about"
+              id="about"
+              className="col-lg-5 col-10 mt-lg-0 mt-5 about section"
             >
               <FormalAbout />
             </div>
@@ -61,11 +63,11 @@ function App() {
         <br /><br /><br /><br id="section2" />
         {/* Skills Section */}
         <div
-          className="container skills d-md-flex gap-md-5 flex-md-column justify-content-center align-items-center"
+          className="container d-md-flex gap-md-5 flex-md-column justify-content-center align-items-center"
           data-aos="fade-up"
           data-aos-delay="300"
           data-aos-duration="1000"
-
+          id="skills"
         >
           <Skills />
         </div>
@@ -73,10 +75,11 @@ function App() {
         <br /><br /><br /><br id="section3" />
         {/* Projects Section */}
         <div
-          className="container  projects"
+          className="container "
           data-aos="fade-up"
           data-aos-delay="300"
           data-aos-duration="1000"
+          id="projects"
         >
           <Projects />
         </div>
@@ -93,10 +96,11 @@ function App() {
         <br /><br /><br /><br id="section4" />
         {/* Contact Section */}
         <div
-          className="container contact"
+          className="container"
           data-aos="fade-up"
           data-aos-delay="300"
           data-aos-duration="1000"
+          id="contact"
         >
           <Contact />
         </div>

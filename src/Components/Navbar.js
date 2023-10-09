@@ -2,6 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useRef } from "react";
 import Hamburger from "./Hamburger";
+import DownloadResume from "./DownloadResume";
 
 const Navbar = () => {
   const section0Ref = useRef();
@@ -30,33 +31,22 @@ const Navbar = () => {
       data-aos="fade-down"
       data-aos-delay="300"
       data-aos-duration="1000"
-      className="navbar navbar-expand-lg py-4 px-5 "
+      id="nav-menu"
+      className="navbar navbar-expand-lg pt-4 pb-3 px-5 "
     >
-      <div className="container-fluid">
+      <div className="container-fluid d-flex align-items-center">
         <a>
-          <h1 className="name">Nishant <span className="name" style={{ color : "#006AFF" }} >Singh</span></h1>
+          <h1 className="name">Nishant <span className="name pt-5" style={{ color : "#006AFF" }} >Singh</span></h1>
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          {/* <span className="navbar-toggler-icon"></span> */}
-          <Hamburger />
-        </button>
+        <Hamburger />
       </div>
       <div
-        className="collapse navbar-collapse px-4"
-        id="navbarSupportedContent"
+        className=" px-4 d-flex align-items-center"
       >
         <ul className="navbar-nav me-auto gap-lg-4 mb-2 mb-lg-0">
           <li className="nav-item">
             <a
-              className="nav-link"
+              className="nav-link home"
               onClick={() => scrollToSection(section0Ref)}
             >
               HOME
@@ -64,7 +54,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link"
+              className="nav-link about"
               onClick={() => scrollToSection(section1Ref)}
             >
               ABOUT
@@ -72,7 +62,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link"
+              className="nav-link skills"
               onClick={() => scrollToSection(section2Ref)}
             >
               SKILLS
@@ -80,19 +70,24 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link"
+              className="nav-link projects"
               onClick={() => scrollToSection(section3Ref)}
             >
               PROJECTS
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link"
+            <a className="nav-link contact"
              onClick={() => scrollToSection(section4Ref)}>CONTACT</a>
           </li>
            <li className="nav-item">
             <a className="nav-link"
              onClick={() => scrollToSection(section5Ref)}>GITHUB</a>
+          </li>
+          <li className="nav-item" >
+            <div id="resume-button-1" className="nav-link resume">
+              <DownloadResume />
+            </div>
           </li>
         </ul>
       </div>
