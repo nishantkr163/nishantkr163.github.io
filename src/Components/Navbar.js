@@ -33,13 +33,13 @@ const Navbar = () => {
       data-aos-delay="300"
       data-aos-duration="1000"
       id="nav-menu"
-      className="navbar pt-4 pb-3 px-5 "
+      className="navbar  navbar-expand-lg  pt-4 pb-3 px-5 "
     >
       <div className="container-fluid d-flex align-items-center">
         <a>
           <h1 className="name">Nishant <span className="name pt-5" style={{ color: "#006AFF" }} >Singh</span></h1>
         </a>
-        <div  >
+        <div className="d-lg-none d-flex" >
           <Hamburger />
         </div>
       </div>
