@@ -1,4 +1,3 @@
-import Copy from "./Copy";
 import DownloadResume from "./DownloadResume";
 
 const About = () => {
@@ -59,7 +58,6 @@ const About = () => {
           </svg>
           <h6 id="contact-phone" >+91 8987366488</h6>
         </div>
-        <Copy />
         <div className="d-flex align-items-center my-3 gap-2 justify-content-center">
           <svg
             width="30px"

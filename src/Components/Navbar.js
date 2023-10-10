@@ -1,6 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Hamburger from "./Hamburger";
 import DownloadResume from "./DownloadResume";
 
@@ -11,10 +11,11 @@ const Navbar = () => {
   const section3Ref = useRef();
   const section4Ref = useRef();
   const section5Ref = useRef();
-
+  
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
+  
 
   useEffect(() => {
     section0Ref.current = document.getElementById("section0");
@@ -32,16 +33,18 @@ const Navbar = () => {
       data-aos-delay="300"
       data-aos-duration="1000"
       id="nav-menu"
-      className="navbar navbar-expand-lg pt-4 pb-3 px-5 "
+      className="navbar pt-4 pb-3 px-5 "
     >
       <div className="container-fluid d-flex align-items-center">
         <a>
-          <h1 className="name">Nishant <span className="name pt-5" style={{ color : "#006AFF" }} >Singh</span></h1>
+          <h1 className="name">Nishant <span className="name pt-5" style={{ color: "#006AFF" }} >Singh</span></h1>
         </a>
-        <Hamburger />
+        <div  >
+          <Hamburger />
+        </div>
       </div>
       <div
-        className=" px-4 d-flex align-items-center"
+        className=" px-4 d-lg-flex d-none align-items-center"
       >
         <ul className="navbar-nav me-auto gap-lg-4 mb-2 mb-lg-0">
           <li className="nav-item">
@@ -78,11 +81,11 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link contact"
-             onClick={() => scrollToSection(section4Ref)}>CONTACT</a>
+              onClick={() => scrollToSection(section4Ref)}>CONTACT</a>
           </li>
-           <li className="nav-item">
+          <li className="nav-item">
             <a className="nav-link"
-             onClick={() => scrollToSection(section5Ref)}>GITHUB</a>
+              onClick={() => scrollToSection(section5Ref)}>GITHUB</a>
           </li>
           <li className="nav-item" >
             <div id="resume-button-1" className="nav-link resume">
