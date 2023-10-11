@@ -18,6 +18,7 @@ const Projects = () => {
       <div data-aos="fade-right"
         data-aos-delay="300"
         data-aos-duration="1000" className="blog-card project-card">
+          <img src="" alt="" />
         <div className="meta">
           <div
             className="photo"
@@ -70,6 +71,7 @@ const Projects = () => {
       <div data-aos="fade-right"
         data-aos-delay="300"
         data-aos-duration="1000" className=" blog-card  project-card alt">
+          <img src="" alt="" />
         <div className="meta">
           <div
             className="photo"
@@ -120,6 +122,7 @@ const Projects = () => {
       <div data-aos="fade-right"
         data-aos-delay="300"
         data-aos-duration="1000" className="blog-card  project-card">
+          <img src="" alt="" />
         <div className="meta">
           <div
             className="photo"
@@ -170,6 +173,7 @@ const Projects = () => {
       <div data-aos="fade-right"
         data-aos-delay="300"
         data-aos-duration="1000" className=" blog-card alt project-card">
+          <img src="" alt="" />
         <div className="meta">
           <div
             className="photo"

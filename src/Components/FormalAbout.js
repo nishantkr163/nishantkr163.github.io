@@ -7,7 +7,7 @@ const FormalAbout = () => {
         <h1 id="user-detail-name" >I&apos;m Nishant Kumar Singh</h1>
         <br />
         <br />
-        <h2 id="user-detail-intro" className="about section" >I am a Full Stack Web Developer passionate about crafting seamless digital experiences.</h2>
+        <h2 id="user-detail-intro" className="about section" >I'm a passionate front-end developer skilled in the MERN stack, focused on creating immersive user experiences</h2>
     </>
   )
 }

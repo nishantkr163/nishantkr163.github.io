@@ -27,6 +27,7 @@ function App() {
         <SpaceBackground />
         <Navbar />
         <br /><br />
+        <br /><br />
         {/* Hero Section with profile pic and 2 lines intro */}
         <div className="container-fluid my-5 image-about">
           <div className="row d-flex align-items-center justify-content-around">
@@ -53,10 +54,11 @@ function App() {
         <br /><br /><br id="section1" /><br id="section1" />
         {/* About Section */}
         <div
+          id="about"
           data-aos="fade-up"
           data-aos-delay="300"
           data-aos-duration="1000"
-          className="container aboutme d-flex gap-5 justify-content-center align-items-center"
+          className="container about section aboutme d-flex gap-5 justify-content-center align-items-center"
         >
           <About />
         </div>

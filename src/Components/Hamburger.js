@@ -44,8 +44,8 @@ const Hamburger = () => {
         </svg>
       </label>
       {
-        sidebar ? <div className="sidebar text-center d-flex flex-column gap-5 d-lg-none" >
-          <ul className="navbar-nav me-auto gap-lg-4 mb-2 mb-lg-0">
+        sidebar ? <div className={`sidebar text-center d-lg-none ${sidebar ? 'mounted' : 'demounted'}`} >
+          <ul className="navbar-nav me-auto  d-flex flex-column gap-3">
             <li className="nav-item">
               <a
                 className="nav-link home"

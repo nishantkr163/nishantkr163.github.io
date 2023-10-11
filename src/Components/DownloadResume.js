@@ -1,7 +1,7 @@
 const DownloadResume = () => {
   return (
     <button type="button" className="button">
-      <span className="button__text d-flex justify-content-center align-item-center">
+      <span className="button__text d-flex justify-content-center pt-2 align-item-center">
         <h6>Resume</h6>
       </span>
       <span className="button__icon">

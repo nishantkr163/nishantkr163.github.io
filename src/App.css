@@ -13,21 +13,35 @@ body {
   /* border: 1px solid red; */
   background-color: #323232;
   position: fixed;
-  top: 11vh;
+  top: 9vh;
   right: 0;
   padding: 20px;
   /* width: 25%; */
   transition-duration: 300ms;
   transition-delay: 1000ms;
-  animation: sidebar ease-in 0.5;
+  animation: sidebar ease 0.5s;
 }
 
-@keyframes identifier {
-  from {
+.sidebar.demounting {
+  animation-name: sidebar-demount;
+  animation-direction: normal; /* Revert the animation direction to normal for demounting */
+}
+
+@keyframes sidebar {
+  0% {
     right : -20%;
   }
-  to {
+  100% {
     right : 0;
+  }
+}
+
+@keyframes sidebar-demount {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -20%;
   }
 }
 

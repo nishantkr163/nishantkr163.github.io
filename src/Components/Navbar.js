@@ -33,7 +33,7 @@ const Navbar = () => {
       data-aos-delay="300"
       data-aos-duration="1000"
       id="nav-menu"
-      className="navbar  navbar-expand-lg  pt-4 pb-3 px-5 "
+      className="navbar  navbar-expand-lg  pt-4 pb-3 px-2 "
     >
       <div className="container-fluid d-flex align-items-center">
         <a>
@@ -46,10 +46,10 @@ const Navbar = () => {
       <div
         className=" px-4 d-lg-flex d-none align-items-center"
       >
-        <ul className="navbar-nav me-auto gap-lg-4 mb-2 mb-lg-0">
+        <ul className="navbar-nav me-auto gap-lg-3 mb-2 mb-lg-0">
           <li className="nav-item">
             <a
-              className="nav-link home"
+              className="nav-link pt-3 home"
               onClick={() => scrollToSection(section0Ref)}
             >
               HOME
@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link about"
+              className="nav-link pt-3 about"
               onClick={() => scrollToSection(section1Ref)}
             >
               ABOUT
@@ -65,7 +65,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link skills"
+              className="nav-link pt-3 skills"
               onClick={() => scrollToSection(section2Ref)}
             >
               SKILLS
@@ -73,18 +73,18 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link projects"
+              className="nav-link pt-3 projects"
               onClick={() => scrollToSection(section3Ref)}
             >
               PROJECTS
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link contact"
+            <a className="nav-link pt-3 contact"
               onClick={() => scrollToSection(section4Ref)}>CONTACT</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link"
+            <a className="nav-link pt-3"
               onClick={() => scrollToSection(section5Ref)}>GITHUB</a>
           </li>
           <li className="nav-item" >

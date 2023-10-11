@@ -17,10 +17,11 @@ export const Skills = () => {
           the web).
         </p>
       </div>
+      <img src="" alt="" />
       <div className="container">
         <div className="row ">
           <div
-            className="col-md-3 mb-3 mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3 mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="100"
             data-aos-duration="1000"
@@ -40,7 +41,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >HTML5</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="200"
             data-aos-duration="1000"
@@ -61,7 +62,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >CSS3</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="300"
             data-aos-duration="1000"
@@ -92,7 +93,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >JavaScript</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="400"
             data-aos-duration="1000"
@@ -114,7 +115,7 @@ export const Skills = () => {
         </div>
         <div className="row mb-4">
           <div
-            className="col-md-3 mb-3  mb-md-5mb-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5mb-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="500"
             data-aos-duration="1000"
@@ -134,7 +135,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >React</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="600"
             data-aos-duration="1000"
@@ -163,7 +164,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >TypeScript</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="700"
             data-aos-duration="1000"
@@ -191,7 +192,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >Redux</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="800"
             data-aos-duration="1000"
@@ -211,7 +212,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >BootStrap</h4>{" "}
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="900"
             data-aos-duration="1000"
@@ -235,7 +236,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >Material UI</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="1000"
             data-aos-duration="1000"
@@ -255,7 +256,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >ChartJS</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="1100"
             data-aos-duration="1000"
@@ -275,7 +276,7 @@ export const Skills = () => {
             <h4 className="skills-card-name" >Leaflet</h4>
           </div>
           <div
-            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6"
+            className="col-md-3 mb-3  mb-md-5 col-p-5 col-6 skills-card"
             data-aos="fade-in"
             data-aos-delay="1200"
             data-aos-duration="1000"
