@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about-div d-flex flex-column gap-4">
       <h1 className="mb-4 name">About Me</h1>
-      <h2  id="user-detail-intro">
+      <h2 >
         As an ambitious Full Stack Web Developer, my specialization lies in
         Frontend Development, where my mission is to empower businesses and
         elevate online experiences. With expertise in the MERN stack, I am

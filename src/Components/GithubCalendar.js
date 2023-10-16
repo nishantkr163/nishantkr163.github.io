@@ -17,7 +17,7 @@ const GithubCalendar = () => {
                     <div
                         data-aos="fade-up"
                         data-aos-delay="100"
-                        data-aos-duration="1000" className='col-12 my-5'>
+                        data-aos-duration="1000" className='col-12 my-5 react-activity-calendar'>
                         <img className='w-100 w-sm-75 react-activity-calendar' id="" src="https://ghchart.rshah.org/nishantkr163" alt="Github calendar" />
                     </div>
                 </div>
