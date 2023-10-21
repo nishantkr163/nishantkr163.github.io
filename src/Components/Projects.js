@@ -87,7 +87,7 @@ const Projects = () => {
             goals and adopt healthy lifestyles.
           </p>
           <p className="read-more">
-            <a className="project-deployed-link" href="https://health-khht942ac-manirhombuz.vercel.app/" target="_blank" >
+            <a className="project-deployed-link" href="https://health-plus-6b1w3y3zi-manirhombuz.vercel.app/" target="_blank" >
               <svg
                 width="30"
                 height="30"

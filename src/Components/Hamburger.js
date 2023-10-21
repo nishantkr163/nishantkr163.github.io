@@ -102,7 +102,11 @@ const Hamburger = () => {
             </li>
             <li className="nav-item">
               <div id="resume-button-1" className="nav-link resume">
-                <a id="resume-button-2" href={Nishant_Kumar_Singh_Resume} target="_blank">
+                <a
+                  id="resume-link-1"
+                  href={Nishant_Kumar_Singh_Resume}
+                  target="_blank"
+                >
                   <DownloadResume />
                 </a>
               </div>

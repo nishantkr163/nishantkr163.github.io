@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect, useRef, useState } from "react";
 import Hamburger from "./Hamburger";
 import DownloadResume from "./DownloadResume";
-import  Nishant_Kumar_Singh_Resume  from "../Resume/Nishant_Kumar_Singh_Resume.pdf"
+import Nishant_Kumar_Singh_Resume from "../Resume/Nishant_Kumar_Singh_Resume.pdf";
 
 const Navbar = () => {
   const section0Ref = useRef();
@@ -12,11 +12,10 @@ const Navbar = () => {
   const section3Ref = useRef();
   const section4Ref = useRef();
   const section5Ref = useRef();
-  
+
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
-  
 
   useEffect(() => {
     section0Ref.current = document.getElementById("section0");
@@ -38,15 +37,18 @@ const Navbar = () => {
     >
       <div className="container-fluid d-flex align-items-center">
         <a>
-          <h1 className="name">Nishant <span className="name pt-5" style={{ color: "#006AFF" }} >Singh</span></h1>
+          <h1 className="name">
+            Nishant{" "}
+            <span className="name pt-5" style={{ color: "#006AFF" }}>
+              Singh
+            </span>
+          </h1>
         </a>
-        <div className="d-lg-none d-flex" >
+        <div className="d-lg-none d-flex">
           <Hamburger />
         </div>
       </div>
-      <div
-        className=" px-4 d-lg-flex d-none align-items-center"
-      >
+      <div className=" px-4 d-lg-flex d-none align-items-center">
         <ul className="navbar-nav me-auto gap-lg-3 mb-2 mb-lg-0">
           <li className="nav-item">
             <a
@@ -81,18 +83,30 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link pt-3 contact"
-              onClick={() => scrollToSection(section4Ref)}>CONTACT</a>
+            <a
+              className="nav-link pt-3 contact"
+              onClick={() => scrollToSection(section4Ref)}
+            >
+              CONTACT
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link pt-3"
-              onClick={() => scrollToSection(section5Ref)}>GITHUB</a>
+            <a
+              className="nav-link pt-3"
+              onClick={() => scrollToSection(section5Ref)}
+            >
+              GITHUB
+            </a>
           </li>
-          <li className="nav-item" >
+          <li className="nav-item">
             <div className="nav-link resume">
-              
-              <DownloadResume />
-            
+              <a
+                id="resume-link-1"
+                href={Nishant_Kumar_Singh_Resume}
+                target="_blank"
+              >
+                <DownloadResume />
+              </a>
             </div>
           </li>
         </ul>
