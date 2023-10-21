@@ -2,8 +2,9 @@ import { useState, useRef, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import DownloadResume from "./DownloadResume";
-const Hamburger = () => {
+import Nishant_Kumar_Singh_Resume from "../Resume/Nishant_Kumar_Singh_Resume.pdf";
 
+const Hamburger = () => {
   const section0Ref = useRef();
   const section1Ref = useRef();
   const section2Ref = useRef();
@@ -12,10 +13,9 @@ const Hamburger = () => {
   const section5Ref = useRef();
 
   const scrollToSection = (ref) => {
-    setSidebar(!sidebar)
+    setSidebar(!sidebar);
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
-
 
   useEffect(() => {
     section0Ref.current = document.getElementById("section0");
@@ -27,24 +27,30 @@ const Hamburger = () => {
     AOS.init();
   }, []);
 
-
-  const [sidebar, setSidebar] = useState(false)
+  const [sidebar, setSidebar] = useState(false);
 
   const handleSidebar = () => {
     setSidebar(!sidebar);
-  }
+  };
 
   return (
     <>
       <label class="hamburger">
         <input onClick={handleSidebar} checked={sidebar} type="checkbox" />
         <svg viewBox="0 0 32 32">
-          <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+          <path
+            class="line line-top-bottom"
+            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+          ></path>
           <path class="line" d="M7 16 27 16"></path>
         </svg>
       </label>
-      {
-        sidebar ? <div className={`sidebar text-center d-lg-none ${sidebar ? 'mounted' : 'demounted'}`} >
+      {sidebar ? (
+        <div
+          className={`sidebar text-center d-lg-none ${
+            sidebar ? "mounted" : "demounted"
+          }`}
+        >
           <ul className="navbar-nav me-auto  d-flex flex-column gap-3">
             <li className="nav-item">
               <a
@@ -79,23 +85,33 @@ const Hamburger = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link contact"
-                onClick={() => scrollToSection(section4Ref)}>CONTACT</a>
+              <a
+                className="nav-link contact"
+                onClick={() => scrollToSection(section4Ref)}
+              >
+                CONTACT
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link"
-                onClick={() => scrollToSection(section5Ref)}>GITHUB</a>
+              <a
+                className="nav-link"
+                onClick={() => scrollToSection(section5Ref)}
+              >
+                GITHUB
+              </a>
             </li>
-            <li className="nav-item" >
+            <li className="nav-item">
               <div id="resume-button-1" className="nav-link resume">
-                <DownloadResume />
+                <a id="resume-button-2" href={Nishant_Kumar_Singh_Resume} target="_blank">
+                  <DownloadResume />
+                </a>
               </div>
             </li>
           </ul>
-        </div> : null
-      }
+        </div>
+      ) : null}
     </>
-  )
-}
+  );
+};
 
-export default Hamburger
+export default Hamburger;

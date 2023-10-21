@@ -47,7 +47,11 @@ function App() {
               id="about"
               className="col-lg-5 col-10 mt-lg-0 mt-5 about section"
             >
-              <FormalAbout />
+              <h1>Hii,</h1>
+              <h1 id="user-detail-name" >I&apos;m Nishant Kumar Singh</h1>
+              <br />
+              <br />
+              <h2 id="user-detail-intro" >I'm a passionate front-end developer skilled in the MERN stack, focused on creating immersive user experiences</h2>
             </div>
           </div>
         </div>
