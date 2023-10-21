@@ -89,8 +89,8 @@ const Navbar = () => {
               onClick={() => scrollToSection(section5Ref)}>GITHUB</a>
           </li>
           <li className="nav-item" >
-            <div id="resume-button-1" className="nav-link resume">
-              <a id="resume-button-2" href={Nishant_Kumar_Singh_Resume} target="_blank"> 
+            <div className="nav-link resume">
+              <a id="resume-link-1" href={Nishant_Kumar_Singh_Resume} target="_blank"> 
               <DownloadResume />
               </a>
             </div>

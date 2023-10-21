@@ -112,7 +112,7 @@ const About = () => {
         className="mt-3 d-flex justify-content-center align-items-center"
       >
         <a
-          id="resume-button-2"
+          id="resume-link-1"
           href={Nishant_Kumar_Singh_Resume}
           target="_blank"
         >
