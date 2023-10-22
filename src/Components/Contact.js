@@ -52,12 +52,6 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    if(state.name === "" || state.email === "" || state.phone === "" || state.message === "") {
-        alert("Please enter details")
-        return 
-    }
-
     emailjs
       .sendForm(
         "service_cnsjqqc",
@@ -189,7 +183,7 @@ const Contact = () => {
                   name="name"
                   type="text"
                   className={styles.form__field}
-                  required=""
+                  required
                 />
                 <label htmlFor="Name" className={styles.form__label}>
                   Name
@@ -202,7 +196,7 @@ const Contact = () => {
                   name="email"
                   type="email"
                   className={styles.form__field}
-                  required=""
+                  required
                 />
                 <label htmlFor="Email" className={styles.form__label}>
                   Email ID
@@ -215,7 +209,7 @@ const Contact = () => {
                   name="phone"
                   type="number"
                   className={styles.form__field}
-                  required=""
+                  required
                 />
                 <label htmlFor="Email" className={styles.form__label}>
                   Phone no.
@@ -225,6 +219,7 @@ const Contact = () => {
                 onChange={(e) => handleInput(e)}
                 value={state.message}
                 name="message"
+                required
                 placeholder="Write message..."
                 style={textareaStyle}
                 onFocus={(e) => {
