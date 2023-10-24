@@ -12,6 +12,7 @@ const initialData = {
   message: "",
 };
 
+
 const reducer = (state, action) => {
   switch (action.type) {
     case "INPUT": {
@@ -34,7 +35,7 @@ const reducer = (state, action) => {
   }
 };
 
-const Contact = () => {
+const Contact = ({handleToast}) => {
   const form = useRef();
   const [state, dispatch] = useReducer(reducer, initialData);
   const [send, setSend] = useState(false)
@@ -61,7 +62,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("Message sent Successfully")
+          handleToast()
           console.log(result.text);
         },
         (error) => {

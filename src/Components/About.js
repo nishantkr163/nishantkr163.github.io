@@ -1,5 +1,6 @@
 import DownloadResume from "./DownloadResume";
 import Nishant_Kumar_Singh_Resume from "../Resume/Nishant_Kumar_Singh_Resume.pdf";
+import Copy from "./Copy";
 
 const About = () => {
   return (
@@ -49,7 +50,7 @@ const About = () => {
             </a>
           </h6>
         </div>
-        <div className="d-flex align-items-center my-3 justify-content-center">
+        <div className="d-flex align-items-center my-3 gap-3 justify-content-center">
           <svg
             width="30px"
             height="30px"
@@ -61,8 +62,12 @@ const About = () => {
               d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z"
             />
           </svg>
-          <h6 id="contact-phone">+91 8987366488</h6>
+          <h6 id="contact-phone" className="pt-2">+91 8987366488</h6>
+          <Copy />
         </div>
+        {/* <div>
+          <Copy />
+        </div> */}
         <div className="d-flex align-items-center my-3 gap-2 justify-content-center">
           <svg
             width="30px"
@@ -112,6 +117,7 @@ const About = () => {
         className="mt-3 d-flex justify-content-center align-items-center"
       >
         <a
+          style={ { textDecoration : "none" } }
           id="resume-link-1"
           href={Nishant_Kumar_Singh_Resume}
           target="_blank"

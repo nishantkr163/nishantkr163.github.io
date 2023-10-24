@@ -103,6 +103,7 @@ const Hamburger = () => {
             <li className="nav-item">
               <div id="resume-button-1" className="nav-link resume">
                 <a
+                  style={{ textDecoration: "none" }}
                   id="resume-link-1"
                   href={Nishant_Kumar_Singh_Resume}
                   target="_blank"

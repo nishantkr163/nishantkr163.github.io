@@ -13,6 +13,8 @@ import SpaceBackground from "./Components/SpaceBackground";
 import Contact from "./Components/Contact";
 import GithubCalendar from "./Components/GithubCalendar";
 import Footer from "./Components/Footer";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -21,8 +23,33 @@ function App() {
     AOS.init();
   }, []);
 
+  const handleToast = () => {
+    toast.success('Message was sent successfully!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+  }
+
   return (
     <>
+        <ToastContainer
+position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+/>
       <div id="section0" className="mainContainer">
         <SpaceBackground />
         <Navbar />
@@ -108,7 +135,7 @@ function App() {
           data-aos-duration="1000"
           id="contact"
         >
-          <Contact />
+          <Contact handleToast={handleToast} />
         </div>
         <br /><br /><br /><br />
       </div>
