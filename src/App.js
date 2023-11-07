@@ -1,4 +1,3 @@
-
 import "./App.css";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -13,18 +12,16 @@ import SpaceBackground from "./Components/SpaceBackground";
 import Contact from "./Components/Contact";
 import GithubCalendar from "./Components/GithubCalendar";
 import Footer from "./Components/Footer";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-
   useEffect(() => {
     AOS.init();
   }, []);
 
   const handleToast = () => {
-    toast.success('Message was sent successfully!', {
+    toast.success("Message was sent successfully!", {
       position: "top-center",
       autoClose: 5000,
       hideProgressBar: false,
@@ -33,28 +30,30 @@ function App() {
       draggable: true,
       progress: undefined,
       theme: "dark",
-      });
-  }
+    });
+  };
 
   return (
     <>
-        <ToastContainer
-position="top-center"
-autoClose={5000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="dark"
-/>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <div id="section0" className="mainContainer">
         <SpaceBackground />
         <Navbar />
-        <br /><br />
-        <br /><br />
+        <br />
+        <br />
+        <br />
+        <br />
         {/* Hero Section with profile pic and 2 lines intro */}
         <div className="container-fluid my-5 image-about">
           <div className="row d-flex align-items-center justify-content-around">
@@ -75,14 +74,20 @@ theme="dark"
               className="col-lg-5 col-10 mt-lg-0 mt-5 about section"
             >
               <h1>Hii,</h1>
-              <h1 id="user-detail-name" >I&apos;m Nishant Kumar Singh</h1>
+              <h1 id="user-detail-name">I&apos;m Nishant Kumar Singh</h1>
               <br />
               <br />
-              <h2 id="user-detail-intro" >I'm a passionate front-end developer skilled in the MERN stack, focused on creating immersive user experiences</h2>
+              <h2 id="user-detail-intro">
+                I'm a passionate front-end developer skilled in the MERN stack,
+                focused on creating immersive user experiences
+              </h2>
             </div>
           </div>
         </div>
-        <br /><br /><br id="section1" /><br id="section1" />
+        <br />
+        <br />
+        <br id="section1" />
+        <br id="section1" />
         {/* About Section */}
         <div
           // id="about"
@@ -93,7 +98,10 @@ theme="dark"
         >
           <About />
         </div>
-        <br /><br /><br /><br id="section2" />
+        <br />
+        <br />
+        <br />
+        <br id="section2" />
         {/* Skills Section */}
         <div
           className="container d-md-flex gap-md-5 flex-md-column justify-content-center align-items-center"
@@ -105,7 +113,10 @@ theme="dark"
           <Skills />
         </div>
         <SpaceBackground />
-        <br /><br /><br /><br id="section3" />
+        <br />
+        <br />
+        <br />
+        <br id="section3" />
         {/* Projects Section */}
         <div
           className="container "
@@ -116,7 +127,10 @@ theme="dark"
         >
           <Projects />
         </div>
-        <br /><br /><br /><br id="section5" />
+        <br />
+        <br />
+        <br />
+        <br id="section5" />
         {/* Github Section */}
         <div
           className="container github"
@@ -126,7 +140,10 @@ theme="dark"
         >
           <GithubCalendar />
         </div>
-        <br /><br /><br /><br id="section4" />
+        <br />
+        <br />
+        <br />
+        <br id="section4" />
         {/* Contact Section */}
         <div
           className="container"
@@ -137,7 +154,10 @@ theme="dark"
         >
           <Contact handleToast={handleToast} />
         </div>
-        <br /><br /><br /><br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
       <Footer />
     </>
