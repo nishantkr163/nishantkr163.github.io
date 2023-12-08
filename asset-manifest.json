@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.09acba48.css",
-    "main.js": "/static/js/main.c71c4f0d.js",
+    "main.css": "/static/css/main.e6b1e812.css",
+    "main.js": "/static/js/main.aed833f9.js",
     "static/js/787.abc630cf.chunk.js": "/static/js/787.abc630cf.chunk.js",
     "static/media/MyImage2.png": "/static/media/MyImage2.90bcb7679a138ce1e08d.png",
     "static/media/contact_image.png": "/static/media/contact_image.fce386b713af91d582e6.png",
     "static/media/Nishant_Kumar_Singh_Resume.pdf": "/static/media/Nishant_Kumar_Singh_Resume.177e4161c60b440a2bb9.pdf",
     "static/media/statistics.png": "/static/media/statistics.2eb5fb815303f2bd860c.png",
     "index.html": "/index.html",
-    "main.09acba48.css.map": "/static/css/main.09acba48.css.map",
-    "main.c71c4f0d.js.map": "/static/js/main.c71c4f0d.js.map",
+    "main.e6b1e812.css.map": "/static/css/main.e6b1e812.css.map",
+    "main.aed833f9.js.map": "/static/js/main.aed833f9.js.map",
     "787.abc630cf.chunk.js.map": "/static/js/787.abc630cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09acba48.css",
-    "static/js/main.c71c4f0d.js"
+    "static/css/main.e6b1e812.css",
+    "static/js/main.aed833f9.js"
   ]
 }
