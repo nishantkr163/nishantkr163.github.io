@@ -22,8 +22,8 @@ body {
   animation: sidebar ease 0.5s;
 }
 
-.sidebar.demounting {
-  animation-name: sidebar-demount;
+.sidebar .demounting {
+  animation: sidebar-demount;
   animation-direction: normal; /* Revert the animation direction to normal for demounting */
 }
 
