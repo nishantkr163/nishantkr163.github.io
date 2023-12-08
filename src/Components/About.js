@@ -19,7 +19,7 @@ const About = () => {
             width="30px"
             height="30px"
             // viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
           >
             <path
               fill="currentColor"
@@ -33,7 +33,7 @@ const About = () => {
             width="30px"
             height="30px"
             // viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
           >
             <path
               fill="currentColor"
@@ -55,7 +55,7 @@ const About = () => {
             width="30px"
             height="30px"
             // viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
           >
             <path
               fill="currentColor"
@@ -75,7 +75,7 @@ const About = () => {
             width="30px"
             height="30px"
             // viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
           >
             <path
               fill="currentColor"
@@ -125,7 +125,7 @@ const About = () => {
           target="_blank"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1WLH8qHDCVPiFYqPCJGQrvbwJRWM4R5n6/view?usp=sharing",
+              "https://drive.google.com/file/d/1smA1-ETlauMzjFuyKWmEgKs6lfwADTzI/view?usp=sharing",
               "_blank"
             )
           }

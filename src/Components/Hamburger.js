@@ -105,8 +105,15 @@ const Hamburger = () => {
                 <a
                   style={{ textDecoration: "none" }}
                   id="resume-link-1"
-                  href={Nishant_Kumar_Singh_Resume}
-                  target="_blank"
+                href={Nishant_Kumar_Singh_Resume}
+                target="_blank"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1smA1-ETlauMzjFuyKWmEgKs6lfwADTzI/view?usp=sharing",
+                    "_blank"
+                  )
+                }
+                download
                 >
                   <DownloadResume />
                 </a>

@@ -107,7 +107,7 @@ const Navbar = () => {
                 target="_blank"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1WLH8qHDCVPiFYqPCJGQrvbwJRWM4R5n6/view?usp=sharing",
+                    "https://drive.google.com/file/d/1smA1-ETlauMzjFuyKWmEgKs6lfwADTzI/view?usp=sharing",
                     "_blank"
                   )
                 }
