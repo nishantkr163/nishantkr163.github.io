@@ -2,7 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import DownloadResume from "./DownloadResume";
-import Nishant_Kumar_Singh_Resume from "../Resume/Nishant_Kumar_Singh_Resume.pdf";
+import Nishant_Kumar_Singh_Resume from "../Resume/Nishant-Kumar-Singh-Resume.pdf";
+
 
 const Hamburger = () => {
   const section0Ref = useRef();

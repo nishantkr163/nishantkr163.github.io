@@ -1,5 +1,5 @@
 import DownloadResume from "./DownloadResume";
-import Nishant_Kumar_Singh_Resume from "../Resume/Nishant_Kumar_Singh_Resume.pdf";
+import Nishant_Kumar_Singh_Resume from "../Resume/Nishant-Kumar-Singh-Resume.pdf";
 import Copy from "./Copy";
 
 const About = () => {

@@ -3,7 +3,8 @@ import "aos/dist/aos.css";
 import { useEffect, useRef, useState } from "react";
 import Hamburger from "./Hamburger";
 import DownloadResume from "./DownloadResume";
-import Nishant_Kumar_Singh_Resume from "../Resume/Nishant_Kumar_Singh_Resume.pdf";
+import Nishant_Kumar_Singh_Resume from "../Resume/Nishant-Kumar-Singh-Resume.pdf";
+
 
 const Navbar = () => {
   const section0Ref = useRef();
