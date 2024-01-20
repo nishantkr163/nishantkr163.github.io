@@ -102,7 +102,7 @@ const Contact = ({handleToast}) => {
           </div>
           <div className="col-lg-2 d-flex flex-lg-column gap-lg-3 gap-0 social_handles social-links">
             <div className="social-links">
-              <div id="twitter" className="social-btn flex-center">
+              <div  onClick={() => window.location.href = "https://www.facebook.com/nishant.singhii.5/"} id="twitter" className="social-btn flex-center">
                 <svg
                   width="20"
                   height="20"
@@ -120,7 +120,7 @@ const Contact = ({handleToast}) => {
                   </a>
                 </span>
               </div>
-              <div id="linkedin" className="social-btn flex-center">
+              <div onClick={() => window.location.href = "https://www.linkedin.com/in/nishant-singh-9629ab270/"} id="linkedin" className="social-btn flex-center">
                 <svg
                   width="20"
                   height="20"
@@ -138,7 +138,7 @@ const Contact = ({handleToast}) => {
                   </a>
                 </span>
               </div>
-              <div id="github" className="social-btn flex-center">
+              <div onClick={() => window.location.href = "mailto:nishantkr488@gmail.com"} id="github" className="social-btn flex-center">
                 <svg
                   width="20"
                   height="20"
@@ -154,7 +154,7 @@ const Contact = ({handleToast}) => {
                   <a href="mailto:nishantkr488@gmail.com">Gmail</a>
                 </span>
               </div>
-              <div id="github" className="social-btn flex-center">
+              <div onClick={() => window.location.href = "https://github.com/nishantkr163"} id="github" className="social-btn flex-center">
                 <svg
                   width="20"
                   height="20"
@@ -170,7 +170,7 @@ const Contact = ({handleToast}) => {
                   </g>
                 </svg>
                 <span>
-                  <a href="https://github.com/nishantkr163">Github</a>
+                  <a>Github</a>
                 </span>
               </div>
             </div>
