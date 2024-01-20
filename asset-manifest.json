@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6b1e812.css",
-    "main.js": "/static/js/main.b1b2296c.js",
+    "main.js": "/static/js/main.e0243ef6.js",
     "static/js/787.abc630cf.chunk.js": "/static/js/787.abc630cf.chunk.js",
     "static/media/MyImage2.png": "/static/media/MyImage2.90bcb7679a138ce1e08d.png",
     "static/media/Nishant-Kumar-Singh-Resume.pdf": "/static/media/Nishant-Kumar-Singh-Resume.1b3a9f3b260639e7c14b.pdf",
@@ -9,11 +9,11 @@
     "static/media/statistics.png": "/static/media/statistics.2eb5fb815303f2bd860c.png",
     "index.html": "/index.html",
     "main.e6b1e812.css.map": "/static/css/main.e6b1e812.css.map",
-    "main.b1b2296c.js.map": "/static/js/main.b1b2296c.js.map",
+    "main.e0243ef6.js.map": "/static/js/main.e0243ef6.js.map",
     "787.abc630cf.chunk.js.map": "/static/js/787.abc630cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6b1e812.css",
-    "static/js/main.b1b2296c.js"
+    "static/js/main.e0243ef6.js"
   ]
 }
